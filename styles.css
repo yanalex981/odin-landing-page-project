@@ -60,7 +60,7 @@ a {
 }
 
 body {
-    padding: 0 calc(50vw - 720px);
+    /* padding: 0 calc(50vw - 720px); */
 }
 
 .dark {
@@ -90,7 +90,7 @@ body {
 }
 
 header, .hero, .gallery, .quote, .signup, footer {
-    margin: 0 200px;
+    padding: 0 14%;
 }
 
 /* header layout */
