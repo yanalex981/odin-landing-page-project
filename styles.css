@@ -84,12 +84,6 @@ body {
     font-weight: bold;
 }
 
-.secondary {
-    font-size: 18px;
-    font-weight: lighter;
-    color: #e5e7eb;
-}
-
 header, .hero, .gallery, .quote, .signup, footer {
     padding: 0 14%;
 }
@@ -102,6 +96,12 @@ header {
     gap: 24px;
     padding-top: 36px;
     padding-bottom: 36px;
+}
+
+header a {
+    font-size: 18px;
+    font-weight: light;
+    color: #e5e7eb;
 }
 
 .logo {
@@ -123,6 +123,7 @@ header {
 .hero h1 {
     font-weight: bolder;
     font-size: 48px;
+    line-height: 2;
 }
 
 .hero p, .hero a {
@@ -144,24 +145,27 @@ header {
 .left a {
     border-radius: 8px;
     background-color: #3882f6;
-    padding: 8px 36px;
+    padding: 12px 36px;
+    font-weight: medium;
+    margin: 16px 0;
 }
 
 .hero p {
-    line-height: 2;
+    line-height: 1.5;
 }
 
 /* end of hero */
 /* gallery */
 
 .gallery {
-    padding: 80px 0;
+    padding-bottom: 80px;
 }
 
 .gallery h1 {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    padding: 60px 0;
 }
 
 .gallery img {
@@ -172,6 +176,7 @@ header {
     border-width: 4px;
     border-style: solid;
     border-color: #3882f6;
+    margin: 16px 0;
 }
 
 .gallery p {
@@ -191,14 +196,15 @@ header {
 /* quote */
 
 .quote {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 80px 360px;
 }
 
 .quote .text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    text-align: justify;
+    line-height: 1.25;
     color: #1f2937;
 }
 
@@ -206,6 +212,7 @@ header {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+    margin-top: 24px;
 }
 
 /* end of quote */
