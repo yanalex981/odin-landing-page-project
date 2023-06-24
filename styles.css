@@ -100,6 +100,8 @@ header {
     display: flex;
     align-items: center;
     gap: 24px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .logo {
@@ -108,8 +110,10 @@ header {
 
 /* end header layout */
 /* hero */
+
 .hero {
     display: flex;
+    margin: 80px 0;
 }
 
 .left, .right {
@@ -150,6 +154,10 @@ header {
 /* end of hero */
 /* gallery */
 
+.gallery {
+    padding: 80px 0;
+}
+
 .gallery h1 {
     font-size: 36px;
     font-weight: bolder;
@@ -179,6 +187,11 @@ header {
 /* end of gallery */
 /* quote */
 
+.quote {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 .quote .text {
     font-size: 36px;
     font-weight: lighter;
@@ -196,10 +209,18 @@ header {
 /* end of quote */
 /* signup */
 
+.signup {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 .signup-banner {
     background-color: #3882f6;
     color: white;
     display: flex;
+    justify-content: space-between;
+    padding: 48px 120px;
+    border-radius: 16px;
 }
 
 .signup-banner h1 {
@@ -217,7 +238,8 @@ header {
     border-style: solid;
     border-color: white;
     padding: 8px 32px;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* end of signup */
@@ -225,6 +247,7 @@ header {
 
 footer {
     text-align: center;
+    padding: 64px;
 }
 
 /* end of footer */
