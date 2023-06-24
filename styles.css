@@ -177,3 +177,20 @@ header {
 }
 
 /* end of gallery */
+/* quote */
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+}
+
+/* end of quote */
