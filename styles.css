@@ -81,11 +81,21 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    margin-right: auto;
 }
 
 .secondary {
     font-size: 18px;
     font-weight: lighter;
     color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 20px 0 8px 0;
+}
+
+.logo {
+    margin-right: auto;
 }
