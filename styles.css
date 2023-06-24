@@ -89,13 +89,16 @@ body {
     color: #e5e7eb;
 }
 
+header, .hero, .gallery, .quote, .signup, footer {
+    margin: 0 200px;
+}
+
 /* header layout */
 
 header {
     display: flex;
     align-items: center;
     gap: 24px;
-    margin: 20px 0 8px 0;
 }
 
 .logo {
@@ -104,4 +107,42 @@ header {
 
 /* end header layout */
 
+.hero {
+    display: flex;
+}
 
+.left, .right {
+    flex-basis: 50%;
+}
+
+.hero h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero p, .hero a {
+    font-size: 18px;
+}
+
+.hero img {
+    min-width: 50%;
+    min-height: auto;
+}
+
+.hero .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 116, 125);
+}
+
+.left a {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 8px 36px;
+}
+
+.hero p {
+    line-height: 2;
+}
