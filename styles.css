@@ -194,3 +194,30 @@ header {
 }
 
 /* end of quote */
+/* signup */
+
+.signup-banner {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+}
+
+.signup-banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info {
+    width: 75%;
+}
+
+.signup-banner a {
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 8px 32px;
+    margin: auto;
+}
+
+/* end of signup */
